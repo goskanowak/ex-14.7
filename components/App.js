@@ -47,6 +47,3 @@ const App = React.createClass ({
         );
     }
 });
-
-
-// wszystko JSX

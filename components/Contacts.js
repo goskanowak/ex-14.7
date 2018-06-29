@@ -1,5 +1,3 @@
-
-
 const Contacts = React.createClass ({
     propTypes: {
         items: React.PropTypes.array.isRequired
@@ -9,7 +7,7 @@ const Contacts = React.createClass ({
             return <Contact items={contact} key={contact.id} ></Contact>
         });
         return (
-        <ul className={'contactList'}>{contacts}</ul>
+            <ul className={'contactList'}>{contacts}</ul>
         );
     }
 })
